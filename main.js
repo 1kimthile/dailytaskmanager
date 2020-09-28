@@ -25,22 +25,22 @@ for (let i = 0; i < list_items.length; i++) {
 
 		list.addEventListener('dragover', function (e) {
 			e.preventDefault();
-			this.style.backgroundColor = '#D6EFEC';
+			this.style.backgroundColor = '#C4C3DA';
 		});
 		
 		list.addEventListener('dragenter', function (e) {
 			e.preventDefault();
-			this.style.backgroundColor = '#DAECFC';
+			this.style.backgroundColor = '#DBDAE8';
 		});
 
 		list.addEventListener('dragleave', function (e) {
-			this.style.backgroundColor = '#DAECFC';
+			this.style.backgroundColor = '#DBDAE8';
 		});
 
 		list.addEventListener('drop', function (e) {
 			console.log('drop');
 			this.append(draggedItem);
-			this.style.backgroundColor = '#DAECFC';
+			this.style.backgroundColor = '#DBDAE8';
 		});
 	}
 }

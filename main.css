@@ -6,18 +6,20 @@
 
 h1 {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    margin-top: 60px;
+	margin-top: 60px;
+	color: #000;
 }
 
 
 h2 {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 10px 10px 20px 10px;
-    font-size: 22px;
+	font-size: 22px;
+	color: #000;
 }
 
 body {
-	background-color: #F4FAFF;
+	background-color: #9D9EB6;
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
@@ -43,21 +45,21 @@ header {
 	flex: 1;
 	width: 100%;
     margin-top: 50px;
-    padding: 10px 10px 40px 10px;
+	padding: 10px 10px 40px 10px;
 }
 
 .lists .list {
     display: flex;
 	flex-flow: column;
     flex: 1;
-
+	border-radius: 3px;
 	width: 100%;
 	min-width: 100px;
 	max-width: 300px;
 	height: 100%;
 	min-height: 150px;
     margin: 8px;
-	background-color: #DAECFC;
+	background-color: #DBDAE8;
 	padding: 10px;
 	transition: all 0.2s linear;
 }
@@ -67,8 +69,8 @@ header {
 }
 
 .lists .list .list-item {
-	background-color: #FCFEFF;
-	border-radius: 8px;
+	background-color: #fff;
+	border-radius: 7px;
 	padding: 10px 10px;
 	text-align: center;
 	margin: 4px 10px;
@@ -85,6 +87,4 @@ input {
     width: 95%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 16px;
-    text-transform: :first
-
 }
