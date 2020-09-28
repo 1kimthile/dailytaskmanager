@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+}
+
+
+h2 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 10px 10px 20px 10px;
+    font-size: 22px;
+}
+
+body {
+	background-color: #F4FAFF;
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.app {
+	display: flex;
+	flex-flow: column;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	flex: 1;
+	width: 100%;
+    margin-top: 40px;
+    padding: 10px 10px 40px 10px;
+}
+
+.lists .list {
+    display: flex;
+	flex-flow: column;
+    flex: 1;
+
+	width: 100%;
+	min-width: 100px;
+	max-width: 350px;
+	height: 100%;
+	min-height: 150px;
+    margin: 10px;
+	background-color: #DAECFC;
+	padding: 10px;
+	transition: all 0.2s linear;
+}
+
+.list-item {
+    height: 50px;
+}
+
+.lists .list .list-item {
+	background-color: #FCFEFF;
+	border-radius: 8px;
+	padding: 10px 10px;
+	text-align: center;
+	margin: 4px 10px;
+}
+
+input {
+    height: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 4px;
+    padding: 10px;
+    width: 95%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: :first
+
+}
