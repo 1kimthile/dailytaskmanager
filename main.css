@@ -53,10 +53,10 @@ header {
 
 	width: 100%;
 	min-width: 100px;
-	max-width: 350px;
+	max-width: 300px;
 	height: 100%;
 	min-height: 150px;
-    margin: 10px;
+    margin: 8px;
 	background-color: #DAECFC;
 	padding: 10px;
 	transition: all 0.2s linear;
